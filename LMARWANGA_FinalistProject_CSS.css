@@ -1,0 +1,116 @@
+        h2   {
+               font-family: "Georgia", Times, serif;
+               font-size: 24pt;
+        }
+
+.customTitle {
+    color: #4B0082
+}
+.wholepage {
+    margin-left:auto;
+    margin-right:auto;
+    width:70%;
+}
+
+.directions {
+    max-width: 600px;
+    min-width:600px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Georgia", Times, serif;
+    font-size: 18pt; 
+    line-height: 24pt;
+    color: #FF4500;
+    padding-bottom: 20px;
+    border-bottom: dashed #FF4500;
+}
+
+#activityTitle {
+    font-family: "Georgia", Times, serif;
+    font-size: 40pt;
+    letter-spacing: 1px;
+    color: #000000;
+    line-height: 45pt;
+}
+
+#projectdescription {
+        color: #000000;
+}
+
+#container1 {
+    max-width: 600px;
+    min-width: 600px;
+}
+
+#container2 {
+    max-width: 600px;
+    min-width: 600px;
+}
+
+#container3 {
+    max-width: 600px;
+    min-width: 600px;
+}
+
+.poem {
+    margin: 20px;
+    margin-top: 50px;
+    font-family: "Georgia", Times, serif;
+    font-size: 18pt; 
+    line-height: 24pt;
+    
+}
+
+.rhyme1 {
+    text-decoration: none;
+    border-bottom: 4px dotted #1E90FF;
+}
+
+.rhyme2 {
+    text-decoration: none;
+    border-bottom: 4px dotted #00FF00;
+}
+
+.tips {
+    float: right;
+    width: 100px;
+    padding-top: 55px; 
+    font-family: "Georgia", Times, serif;
+    font-style: italic;
+    font-size: 10pt; 
+    line-height: 14pt;
+    color: #FF4500;
+}
+
+#part2 {
+    max-width: 600px;
+    min-width:600px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Georgia", Times, serif;
+    font-size: 18pt; 
+    line-height: 24pt;
+    color: #FF4500;
+    border-top: dashed #FF4500;    
+}
+#greatjob {
+    max-width: 600px;
+    min-width:600px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: "Georgia", Times, serif;
+    font-size: 18pt; 
+    line-height: 24pt;
+    color: #FF4500;
+    padding-top: 20px;
+    border-top: dashed #FF4500;
+}
+
+.image {
+    position:absolute;
+    left:700px;
+    top:0px;
+}
