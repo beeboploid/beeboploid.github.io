@@ -1,0 +1,37 @@
+<html>
+<head>
+  <title>Random Beyonce </title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div class = 'container'>
+    <div class = 'header'><h1>Beyonce Rocks!</h1>
+
+    </div>  
+    
+    <div class = 'navcontainer'>
+      <div class = 'navbar'><a href="/">Home</a></div><div class = 'navbar'><a href="/sets">Sets</a></div><div class = 'navbar'><a href="/sets/new">Add a Set</a></div>
+    </div>
+      <h3><%= @show[:name]%></h3>
+      <p><%= @show[:vidnum].join(", ")%></p>
+      <p><%= @show[:description]%></p>
+      
+    <div class = 'form'>
+      <form action="/sets/<%= @show[:name]%>" method="post">
+      <input type='hidden' name='_method' value='put'>
+      <label>
+      Alter your playlist:
+        <textarea name='video'></textarea>
+      </label>
+      <label>
+      Change your Description:
+        <input type='text' name='description'>
+      </label>
+      <input type='submit' name='submit' value='Make Your Set'>
+      </form>
+    </div>
+  </div>
+  
+</body>
+</html>

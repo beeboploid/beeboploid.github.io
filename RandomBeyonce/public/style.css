@@ -1,0 +1,49 @@
+body {
+	background: -webkit-linear-gradient(top, black, #D199D1);
+	color: white;
+	font-family: 'Helvetica';
+}
+.header{
+	color:#904D90;
+	font-family: 'Rock Salt', cursive;
+	font-size:30px;
+}
+
+.container{
+	position:relative;
+	left:25%;
+}
+.navbar{
+	display:inline-block;
+	font-family: 'Rock Salt', cursive;
+	margin:10px;
+	font-weight: bold;
+	color:white;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited{
+	color:white;
+	text-decoration: none;
+}
+.navcontainer{
+	position:relative;
+	z-index: 1000;
+	margin:5px;
+}
+
+iframe {
+	width:75%; 
+	height:75%;
+	position:relative;
+	left:10%;
+	box-shadow: 10px 10px 10px #380038;
+
+}
+label{
+	display:block;
+	margin:15px;
+}
+
+
