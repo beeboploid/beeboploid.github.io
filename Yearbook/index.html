@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Loide's Yearbook</title>
+    <style type="text/css">
+
+    body{
+    font-family: 'Sorts Mill Goudy', serif;
+    font-style:italic;
+    font-size:24px;
+    color:white;
+    background-color:white;
+   }
+
+    body:hover{
+    background-color:black;
+    -webkit-transition: background-color 3s linear;
+    -moz-transition: background-color 3s linear;
+    -o-transition: background-color 3s linear;
+    -ms-transition: background-color 3s linear;
+    transition: background-color 3s linear;
+    }
+
+    h1{
+    text-transform:uppercase;
+    font-style:normal;
+    font-size:36px;
+    }
+
+    .container{
+    position:relative;
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+/*	border:1px solid;
+*/	overflow:hidden;
+	}
+
+	.pic{
+	display:inline-block;
+	position:relative;
+	margin:-3px;
+	width:300px;
+	height:300px;
+/*	border:1px solid red;
+*/	overflow:hidden;
+	}
+
+	.description{
+	position:absolute;
+	padding:10px;
+	text-align:center;
+	-webkit-transform:rotateZ(0deg);
+	transition:2s;
+	}
+
+	.pic:hover .description {
+	-webkit-transform:rotateZ(10deg);
+	}
+
+	.picture{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-size:100%;
+	opacity:1;
+	transition:1s;
+	}
+
+	.picture:hover{
+	opacity:0;
+	}
+
+	.picture1 {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-size:100%;
+	-webkit-transform:rotateZ(0deg);
+	opacity:1;
+	transition:1s;
+	}
+
+	.picture1:hover {
+	-webkit-transform:rotateZ(-15deg);
+	opacity:0;
+	}
+
+	.picture2 {
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-size:100%;
+	-webkit-transform:scale(1,1) rotateZ(0deg);
+	opacity:1;
+	transition:2s;
+	}
+
+	.picture2:hover {
+	-webkit-transform:scale(2,2) rotateZ(-15deg);
+	opacity:0;
+	}
+
+    </style>
+
+    <link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="pic">
+			<div class="description">
+				<h1>January</h1>
+				Feeling quite existential.
+			</div>			
+			<div class="picture1" style="background-image: url('images/01.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>February</h1>
+				Have to pay my utility bill.
+			</div>			
+			<div class="picture2" style="background-image: url('images/02.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>March</h1>
+				Enjoying the weather. Look at that face. Enjoyment.
+			</div>			
+			<div class="picture" style="background-image: url('images/03.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>April</h1>
+				I don't like flats. No more snow.
+			</div>			
+			<div class="picture2" style="background-image: url('images/04.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>May</h1>
+				Ziplining for the first time. Terrified.
+			</div>			
+			<div class="picture" style="background-image: url('images/05.png');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>June</h1>
+				Roadtrip! Through the Blueridge Mountains.
+			</div>			
+			<div class="picture2" style="background-image: url('images/06.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>July</h1>
+				Feeling quite philosophical.
+			</div>			
+			<div class="picture" style="background-image: url('images/07.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>August</h1>
+				Trip to Tennessee.
+			</div>			
+			<div class="picture2" style="background-image: url('images/08.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>September</h1>
+				Swimming, very skeptical about swimming.
+			</div>			
+			<div class="picture" style="background-image: url('images/09.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>October</h1>
+				Whaaaa.
+			</div>			
+			<div class="picture" style="background-image: url('images/10.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>November</h1>
+				It's cold outside! Brrr.
+			</div>			
+			<div class="picture" style="background-image: url('images/11.jpg');">
+			</div>
+		</div>
+		<div class="pic">
+			<div class="description">
+				<h1>December</h1>
+				Smokin. Look at that face.
+			</div>			
+			<div class="picture" style="background-image: url('images/12.jpg');">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
