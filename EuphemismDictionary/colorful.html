@@ -1,0 +1,492 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Euphemism Dictionary</title>
+
+<style>
+	
+	.container{
+		width:1190px;
+		margin-left:auto;
+		margin-right:auto;
+		}
+	
+	.letternavigation{
+		width:1153px;
+		height:41px;
+		margin-bottom:3px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:20px;
+		padding-right:10px;
+		background-color:#000000;
+		text-align:left;
+		letter-spacing: 6.5px;
+		}
+	
+	.letterlinks{
+		font-family:Helvetica, Arial, sans-serif;
+		font-size: 10pt;
+		color:#FFFFFF;
+		}
+		
+	a:link {color:#FFFFFF;}  
+	a:visited {color:#B4B4B4;} 
+	a:hover {color:#B4B4B4;}  
+	a:active {color:#B4B4B4;}  
+	a:link {text-decoration:none;}
+	a:visited {text-decoration:none;}
+	a:hover {text-decoration:underline;}
+	a:active {text-decoration:underline;}
+			
+	#backtotop{
+		color:#000000;
+		font-weight:bold;
+		}
+		
+	#hangright{
+		position:fixed;
+		right:35px;
+		bottom:35px;
+		}
+				
+	.search{
+		float:left;
+		height:41px;
+		width: 550px;
+		margin-right: 5px;
+		margin-bottom:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:20px;
+		padding-right:20px;
+		background-color:#000000;
+		text-align:left;
+		}
+		
+	.searchprompt{
+		font-family:Helvetica, Arial, sans-serif;
+		font-size: 10pt;
+		color:#B4B4B4;
+		letter-spacing: 4px;
+		}
+	
+	.buttoncontainer{
+		float:left;
+		position:relative;
+		height:41px;
+		width: 595px;
+		margin-bottom:5px;		
+		}
+	
+	.colorfulnav{
+		float:left;
+		height:41px;
+		width: 119px;
+		margin-right: 5px;
+		margin-bottom:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:12px;
+		padding-right:12px;
+		background-color:rgba(249,255,186,1.00);
+		text-align:center;
+		}	
+	.highbrownav{
+		float:left;
+		height:41px;
+		width: 119px;
+		margin-right: 5px;
+		margin-bottom:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:12px;
+		padding-right:12px;
+		background-color:rgba(192,221,251,1.00);
+		text-align:center;
+		}
+	.lowbrownav{
+		float:left;
+		height:41px;
+		width: 120px;
+		margin-right: 5px;
+		margin-bottom:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:12px;
+		padding-right:12px;
+		background-color:rgba(254,209,237,1.00);
+		text-align:center;
+		}
+	.technicalnav{
+		float:left;
+		height:41px;
+		width: 119px;
+		margin-bottom:5px;
+		padding-top:5px;
+		padding-bottom:5px;
+		padding-left:12px;
+		padding-right:12px;
+		background-color:rgba(195,212,173,1.00);
+		text-align:center;
+		}
+	
+	.navtext{
+		font-family:Helvetica, Arial, sans-serif;
+		font-size: 10pt;
+		color:#000000;
+		letter-spacing: 4px;
+		}
+		
+	.wordscontainer{
+		float:left;
+		clear:both;
+		width:1190px;
+		}
+	
+	.words{
+		margin-right:5px;
+		float:left;
+			}
+	
+</style>
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('IMAGES/FINALS/Dictionary_IMAGES4.gif','IMAGES/FINALS/Dictionary_IMAGES7.gif','IMAGES/FINALS/Dictionary_IMAGES10.gif','IMAGES/FINALS/Dictionary_IMAGES13.gif','IMAGES/FINALS/Dictionary_IMAGES17.gif','IMAGES/FINALS/Dictionary_IMAGES20.gif','IMAGES/FINALS/Dictionary_IMAGES23.gif','IMAGES/FINALS/Dictionary_IMAGES26.gif','IMAGES/FINALS/Dictionary_IMAGES29.gif','IMAGES/FINALS/Dictionary_IMAGES33.gif','IMAGES/FINALS/Dictionary_IMAGES39.gif','IMAGES/FINALS/Dictionary_IMAGES42.gif','IMAGES/FINALS/Dictionary_IMAGES46.gif','IMAGES/FINALS/Dictionary_IMAGES49.gif','IMAGES/FINALS/Dictionary_IMAGES52.gif','IMAGES/FINALS/Dictionary_IMAGES59.gif','IMAGES/FINALS/Dictionary_IMAGES63.gif','IMAGES/FINALS/Dictionary_IMAGES70.gif','IMAGES/FINALS/Dictionary_IMAGES76.gif','IMAGES/FINALS/Dictionary_IMAGES83.gif','IMAGES/FINALS/Dictionary_IMAGES89.gif','IMAGES/FINALS/Dictionary_IMAGES93.gif','IMAGES/FINALS/Dictionary_IMAGES96.gif','IMAGES/FINALS/Dictionary_IMAGES99.gif','IMAGES/FINALS/Dictionary_IMAGES102.gif','IMAGES/FINALS/Dictionary_IMAGES106.gif','IMAGES/FINALS/Dictionary_IMAGES112.gif','IMAGES/FINALS/Dictionary_IMAGES116.gif','IMAGES/FINALS/Dictionary_IMAGES119.gif','IMAGES/FINALS/Dictionary_IMAGES123.gif','IMAGES/FINALS/Dictionary_IMAGES126.gif','IMAGES/FINALS/Dictionary_IMAGES130.gif','IMAGES/FINALS/Dictionary_IMAGES137.gif','IMAGES/FINALS/Dictionary_IMAGES140.gif','IMAGES/FINALS/Dictionary_IMAGES150.gif','IMAGES/FINALS/Dictionary_IMAGES154.gif','IMAGES/FINALS/Dictionary_IMAGES157.gif','IMAGES/FINALS/Dictionary_IMAGES160.gif','IMAGES/FINALS/Dictionary_IMAGES166.gif','IMAGES/FINALS/Dictionary_IMAGES180.gif','IMAGES/FINALS/Dictionary_IMAGES187.gif','IMAGES/FINALS/Dictionary_IMAGES190.gif','IMAGES/FINALS/Dictionary_IMAGES200.gif','IMAGES/FINALS/Dictionary_IMAGES203.gif','IMAGES/FINALS/Dictionary_IMAGES210.gif','IMAGES/FINALS/Dictionary_IMAGES221.gif')">
+
+<div id='hangright'><a href="#topofpage">
+<p id='backtotop' class='letterlinks'>TO TOP</p>
+</a>
+<a href="index.html">
+<p id='backtotop' class='letterlinks'>HOME</p>
+</a>
+</div>
+
+<div class='container'>
+    
+	<div id='topofpage' class='letternavigation'>
+    <p class='letterlinks'> <a href="#a">A</a> | <a href="#b">B</a> | <a href="#c">C</a> | <a href="#d">D</a> | <a href="#e">E</a> | <a href="#f">F</a> | <a href="#g">G</a> | <a href="#h">H</a> | <a href="#i">I</a> | <a href="#j">J</a> | <a href="#k">K</a> | <a href="#l">L</a> | <a href="#m">M</a> | <a href="#n">N</a> | <a href="#o">O</a> | <a href="#p">P</a> | <a href="#q">Q</a> | <a href="#r">R</a> | <a href="#s">S</a> | <a href="#t">T</a> | <a href="#u">U</a> | <a href="#v">V</a> | <a href="#w">W</a> | <a href="#x">X</a> | <a href="#y">Y</a> | <a href="#z">Z</a> </p>
+    </div>
+    
+    <div class='search'>
+    <p class='searchprompt'> SEARCH EUPHEMISMS THAT REFER TO THE WORD... </p>
+    </div>
+    
+    <div class='buttoncontainer'>
+    	<div class='colorfulnav'>
+       	<a href="colorful.html"><p class='navtext'>COLORFUL</p></a>
+       </div>
+       <div class='highbrownav'>
+       	<a href="highbrow.html"><p class='navtext'>HIGH-BROW</p></a>
+       </div>
+       <div class='lowbrownav'>
+       	<a href="lowbrow.html"><p class='navtext'>LOW-BROW</p></a>
+       </div>
+       <div class='technicalnav'>
+       	<a href="technical.html"><p class='navtext'>TECHNICAL</p></a>
+       </div>
+    </div>
+    
+    <div class='wordscontainer'>
+    	<div class='words'>
+       <img id="a" src="IMAGES/FINALS/Dictionary_IMAGES.png" width="292" height="390" alt=""/> </div>
+       <div class='words'>
+       
+       </div>
+       <div class='words'>
+       
+       </div>
+       <div class='words'>
+       
+       </div>
+       <div class='words'>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('aztec two step','','IMAGES/FINALS/Dictionary_IMAGES13.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES11.png" alt="" width="292" height="390" id="aztec two step"></a> 
+       </div>
+       <div class='words'>
+       <img id='b' src="IMAGES/FINALS/Dictionary_IMAGES14.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES21.png" alt="" width="292" height="390" id="Image9"></a> 
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+   	   <img id='c' src="IMAGES/FINALS/Dictionary_IMAGES30.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES34.png" alt="" width="292" height="390" id="Image14"></a> 
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','IMAGES/FINALS/Dictionary_IMAGES42.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES40.png" alt="" width="292" height="390" id="Image16"></a> 
+       </div>
+       <div class='words'>
+       <img id='d' src="IMAGES/FINALS/Dictionary_IMAGES43.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+       <img id='e' src="IMAGES/FINALS/Dictionary_IMAGES53.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES54.png" alt="" width="292" height="390" id="Image22"></a> 
+       </div>
+       <div class='words'>
+        
+       </div>
+  		<img id='f' src="IMAGES/FINALS/Dictionary_IMAGES60.png" width="292" height="390" alt=""/> 
+  </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','IMAGES/FINALS/Dictionary_IMAGES63.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES61.png" alt="" width="292" height="390" id="Image25"></a> 
+       </div>
+       <div class='words'>
+        
+       </div>
+       <div class='words'>
+       <img id='g' src="IMAGES/FINALS/Dictionary_IMAGES67.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','IMAGES/FINALS/Dictionary_IMAGES70.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES68.png" alt="" width="292" height="390" id="Image28"></a> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES71.png" alt="" width="292" height="390" id="Image29"></a> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES77.png" alt="" width="292" height="390" id="Image31"></a> 
+       </div>
+       <div class='words'>
+   	   <img id='h' src="IMAGES/FINALS/Dictionary_IMAGES80.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+      	
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image35','','IMAGES/FINALS/Dictionary_IMAGES89.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES87.png" alt="" width="292" height="390" id="Image35"></a> 
+       </div>
+       <div class='words'>
+   	   <img id='i' src="IMAGES/FINALS/Dictionary_IMAGES90.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','IMAGES/FINALS/Dictionary_IMAGES96.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES94.png" alt="" width="292" height="390" id="Image38"></a> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','IMAGES/FINALS/Dictionary_IMAGES102.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES100.png" alt="" width="292" height="390" id="Image40"></a> 
+       </div>
+       <div class='words'>
+   	   <img id='j' src="IMAGES/FINALS/Dictionary_IMAGES103.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image43','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES107.png" alt="" width="292" height="390" id="Image43"></a> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <img id='k' src="IMAGES/FINALS/Dictionary_IMAGES113.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','IMAGES/FINALS/Dictionary_IMAGES116.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES114.png" alt="" width="292" height="390" id="Image46"></a> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <img id='l' src="IMAGES/FINALS/Dictionary_IMAGES120.png" width="292" height="390" alt=""/> </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','IMAGES/FINALS/Dictionary_IMAGES126.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES124.png" alt="" width="292" height="390" id="Image50"></a> 
+       </div>
+       <div class='words'>
+   	   <img id='m' src="IMAGES/FINALS/Dictionary_IMAGES127.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image51','','IMAGES/FINALS/Dictionary_IMAGES130.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES128.png" alt="" width="292" height="390" id="Image51"></a> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <img id='n' src="IMAGES/FINALS/Dictionary_IMAGES134.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	    
+       </div>
+       <div class='words'>
+   	   <img id='o' src="IMAGES/FINALS/Dictionary_IMAGES144.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image57','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES145.png" alt="" width="292" height="390" id="Image57"></a> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image59','','IMAGES/FINALS/Dictionary_IMAGES150.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES148.png" alt="" width="292" height="390" id="Image59"></a> 
+       </div>
+       <div class='words'>
+   	   <img id='p' src="IMAGES/FINALS/Dictionary_IMAGES151.png" width="292" height="390" alt=""/> 
+       </div>
+        <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','IMAGES/FINALS/Dictionary_IMAGES160.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES158.png" alt="" width="292" height="390" id="Image63"></a> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <img id='q' src="IMAGES/FINALS/Dictionary_IMAGES170.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <img id='r' src="IMAGES/FINALS/Dictionary_IMAGES174.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <img id='s' src="IMAGES/FINALS/Dictionary_IMAGES184.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image74','','IMAGES/FINALS/Dictionary_IMAGES190.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES188.png" alt="" width="292" height="390" id="Image74"></a> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image75','','IMAGES/FINALS/Dictionary_IMAGES190.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES191.png" alt="" width="292" height="390" id="Image75"></a> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image76','','IMAGES/FINALS/Dictionary_IMAGES130.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES194.png" alt="" width="292" height="390" id="Image76"></a> 
+       </div>
+       <div class='words'>
+   	   <img id='t' src="IMAGES/FINALS/Dictionary_IMAGES197.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image77','','IMAGES/FINALS/Dictionary_IMAGES200.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES198.png" alt="" width="292" height="390" id="Image77"></a> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image79','','IMAGES/FINALS/Dictionary_IMAGES23.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES204.png" alt="" width="292" height="390" id="Image79"></a> 
+       </div>
+       <div class='words'>
+       <img id='u' src="IMAGES/FINALS/Dictionary_IMAGES207.png" width="292" height="390" alt=""/> </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <img id='v' src="IMAGES/FINALS/Dictionary_IMAGES211.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <img id='w' src="IMAGES/FINALS/Dictionary_IMAGES215.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image85','','IMAGES/FINALS/Dictionary_IMAGES96.gif',1)"><img src="IMAGES/FINALS/Dictionary_IMAGES216.png" alt="" width="292" height="390" id="Image85"></a> 
+       </div>
+       <div class='words'>
+   	   
+       </div>
+       <div class='words'>
+   	   <img id='x' src="IMAGES/FINALS/Dictionary_IMAGES222.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <img id='y' src="IMAGES/FINALS/Dictionary_IMAGES223.png" width="292" height="390" alt=""/> 
+       </div>
+       <div class='words'>
+   	   <img id='z' src="IMAGES/FINALS/Dictionary_IMAGES224.png" width="292" height="390" alt=""/> 
+       </div>
+ 	
+</div>
+
+</body>
+</html>
