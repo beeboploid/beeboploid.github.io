@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bubble Task Test</title>
+
+            <script type="text/javascript">
+    			
+	    			
+	    			function grow(elem) {
+
+	    				var width = 0;
+	    				var height = 0;
+
+	    				function frame() {
+	    					width++
+	    					height++
+
+	    					elem.style.width = width + 'vw';
+	    					elem.style.height = height + 'vw';
+	    					elem.style["margin"] = (0 - (width/2)) + 'vw';
+
+	    					if (width == 100 && height == 100)
+	    					clearInterval(id) 
+	    				};
+
+	    				var id = setInterval(frame, 50);
+	    			};
+
+
+		    </script>
+
+		    <style>
+
+		    	.container {
+		    		margin:100px;
+		    		width:600px;
+		    		height:800px;
+		    	}
+
+		    	.frame {
+		    		position:absolute;
+		    		border-radius:50%;
+					background-color: none;
+					width:50px;
+					height:50px;
+					margin:-25px;
+		    	}
+
+		    	.circle1 {
+		    		position:absolute;
+		    		left:25%;
+		    		z-index: 10;
+		    	}
+
+		    	.circle2 {
+		    		position:absolute;
+		    		left:45%;
+		    		z-index: 20;
+		    	}
+
+		    	.circle3 {
+		    		position:absolute;
+		    		left:65%;
+		    		z-index:0;
+		    	}
+
+		    	.row2 {
+		    		position:absolute;
+		    		top:50%;
+		    		z-index:0;
+		    	}
+
+		    </style>
+    </head>
+
+<!--     How trigger animations on load?
+		How calculate size from time/geolocation? 
+ -->
+    <body>
+
+	    <div class="container">
+
+	    	<div onclick="grow(this)" class="frame circle1">
+		    	<img src="BT_Bubbles.png" alt="Sketches for Dan's class" height="100%" width="100%"/>
+			</div>
+
+			<div onclick="grow(this)" class="frame circle2">
+				<img src="BT_Bubbles2.png" alt="Laundry" height="100%" width="100%"/>
+			</div>
+
+			<div onclick="grow(this)" class="frame circle3">
+				<img src="BT_Bubbles3.png" alt="Rosanna visiting" height="100%" width="100%"/>
+	    	</div>
+
+	    	<div onclick="grow(this)" class="frame circle1 row2">
+				<img src="BT_Bubbles4.png" alt="First Friday @Five" height="100%" width="100%"/>
+	    	</div>
+
+	    	<div onclick="grow(this)" class="frame circle2 row2">
+				<img src="BT_Bubbles5.png" alt="Swimming lesson" height="100%" width="100%"/>
+	    	</div>
+
+	    	<div onclick="grow(this)" class="frame circle3 row2">
+				<img src="BT_Bubbles6.png" alt="Meditation @temple" height="100%" width="100%"/>
+	    	</div>
+
+	    </div>
+
+    </body>
