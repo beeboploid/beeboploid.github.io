@@ -1,0 +1,126 @@
+body {
+	font-family: "Rotis";
+}
+
+.background {
+	position:absolute;
+	height:100%;
+	width:100%;
+	margin:-10px;
+	background: linear-gradient(red,black);
+	overflow-y: scroll;
+}
+
+.container {
+	position:absolute;
+	background-color:black;
+	width:400px;
+	height:100%;
+	margin-left:-200px;
+	left:50%;
+}
+
+.header {
+	position:inline-block;
+	width:100%;
+	height:120px;
+}
+
+.top {
+	position:absolute;
+	z-index:100;
+}
+
+.section {
+	position:relative;
+	text-align: center;
+	font-family: Helvetica;
+	width:400px;
+	height:40px;
+	padding-top:30px;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+.divider {
+	position:absolute;
+	bottom:-19px;
+	z-index:50;
+}
+
+.content {
+	position:relative;
+	text-align: left;
+	font-family: Helvetica;
+	width:400px;
+	padding-top:30px;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+.text {
+	padding:0px 30px 30px 30px;
+}
+
+#ch1 {
+	background-color:white;
+/*	background-color:rgb(255,34,42);
+*/}
+
+#ch1content {
+	display:none;
+	background-color:white;	
+}
+
+#ch2 {
+	color:white;
+	background-color:black;
+	/*background-color:rgb(254,192,45);*/
+}
+
+#ch2content {
+	display:none;
+	color:white;
+	background-color:black;	
+}
+
+#ch3 {
+	background-color:white;
+/*	background-color:rgb(239,127,34);
+*/}
+
+#ch3content {
+	display:none;
+	background-color:white;
+}
+
+#ch4 {
+	color:white;
+	background-color:black;
+}
+
+#ch4content {
+	display:none;
+	color:white;
+	background-color:black;
+}
+
+#ch5 {
+	background-color:white;
+}
+
+#ch5content {
+	display:none;
+	background-color:white;
+}
+
+#ch6 {
+	color:white;
+	background-color:black;
+}
+
+#ch6content {
+	display:none;
+	color:white;
+	background-color:black;
+}
