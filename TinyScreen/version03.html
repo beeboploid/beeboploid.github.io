@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tiny Screen Test</title>
+
+        <style>
+
+
+            .container {
+               margin:10px;
+               font-family: Helvetica;
+               line-height: 125%;
+            }
+
+
+            .links {
+                position:absolute;
+                display: inline-block;
+                margin:20px;
+                margin-left:20px;
+            }
+
+            .text {
+                position:absolute;
+                display: inline-block;
+                margin-top:100px;
+                margin-left:130px;
+                margin-right:100px;
+                margin-bottom:50px;
+                font-size: 30px;
+                line-height: 110%;
+            }
+
+            h1 {
+                color:red;
+                font-size:50px;
+                letter-spacing: 2px;
+            }
+
+            .door {
+                position:absolute;
+                display: inline-block;
+                width:200px;
+                height:300px;
+                border:1px solid red;
+                margin-top:-80px;
+                margin-left:110px;
+
+            }
+
+            .patternsymboltop {
+                position:absolute;
+                display: inline-block;
+                width:900px;
+                font-size: 300px;
+                color:red;
+                margin-top:0px;
+                margin-left:50px;
+                letter-spacing: -25px;
+
+            }
+
+            .patternsymbol {
+                position:absolute;
+                display: inline-block;
+                width:900px;
+                font-size: 300px;
+                color:red;
+                margin-top:150px;
+                margin-left:50px;
+                letter-spacing: -25px;
+
+            }
+
+            .one {
+                position:absolute;
+                display: inline-block;
+                margin:20px;
+                margin-left:610px;
+            }
+
+            .two {
+                position:absolute;
+                display: inline-block;
+                margin-top:400px;
+                margin-left:20px;
+            }
+            
+            .three {
+                position:absolute;
+                display: inline-block;
+                margin-top:400px;
+                margin-left:610px;
+            }
+
+            .redtext {
+                color:red;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="links">
+                <a href="Eye2.html"> 1stFloorLeft </a> |
+                <a href="Eye1.html"> 1stFloorRight </a> |
+                <a href="Eye3.html"> 2ndFloor </a>
+            </div>
+
+            <div class="text">
+                <h1>SMALL TALK</h1>
+                <p>
+                    From here head downstairs. From there go right. You could go <i>that</i> way or <i>that</i> way. You haven't been down <i>there</i> in a while. Hell, you can't go any further than <i>this</i>, I'd turn around. Umm...maybe that way. Down there is pretty busy. Everyone usually goes <i>that</i> way. Up there's pretty convenient, you know, once you're up there. It's all downhill from here. Let's get out of here, yeah? I wonder what's up there, don't you?  
+                </p>
+
+                <p class="redtext">[Alternatively]</p>
+
+                <p>
+                . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > > . || . < < . || . < < . . \\ . . \\ . . > > . . > >? . || . < < . || . < < ?
+                </p>
+
+            </div>
+
+            <div class="one">
+                <img id="display" width="100px">
+                    <script>
+
+                    window.setInterval (
+                        function () {
+                        var myArray = ['Eye03.gif', 'Eye03_alt1.gif', 'Eye03_alt2.gif', 'Eye03_alt3.gif', 'Eye03_alt4.gif', 'Eye03_alt5.gif'];
+
+                        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+                        // Math.floor(Math.random(...)) call rounds down, so don't have to do .length - 1
+
+                        document.getElementById("display").src = rand;
+                        }, 
+                        5460);
+
+                    </script>
+                <div class="door"></div>
+                
+            </div>
+            <div class="three">
+                <img id="display3" width="100px"/>
+                    <script>
+
+                    window.setInterval (
+                        function () {
+                        var myArray = ['Eye1.gif', 'Eye1_alt1.gif', 'Eye1_alt2.gif', 'Eye1_alt3.gif', 'Eye1_alt4.gif', 'Eye1_alt5.gif', 'Eye1_alt6.gif'];
+
+                        var rand = myArray[Math.floor(Math.random() * myArray.length)];
+                        // Math.floor(Math.random(...)) call rounds down, so don't have to do .length - 1
+
+                        document.getElementById("display3").src = rand;
+                        }, 
+                        5460);
+
+                    </script>
+
+
+                <div class="door"></div>
+                
+            </div>
+            <div class="two">
+                <img id="display2" width="100px"/>
+                        <script>
+
+                        window.setInterval (
+                            function () {
+                            var myArray = ['Eye02.gif', 'Eye02_alt1.gif', 'Eye02_alt2.gif', 'Eye02_alt3.gif', 'Eye02_alt4.gif', 'Eye02_alt5.gif', 'Eye02_alt6.gif'];
+
+                            var rand = myArray[Math.floor(Math.random() * myArray.length)];
+                            // Math.floor(Math.random(...)) call rounds down, so don't have to do .length - 1
+
+                            document.getElementById("display2").src = rand;
+                            }, 
+                            5460);
+
+                        </script>
+
+                <div class="door"></div>
+                
+            </div>
+        </div>
+
+    </body>
