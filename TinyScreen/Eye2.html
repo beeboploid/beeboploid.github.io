@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Tiny Screen</title>
+        <title>Small Talk | First Floor Left Door</title>
 
         <style>
             .container {
@@ -14,6 +14,16 @@
                 width:100%;
             }
 
+            p {
+                text-align: center;
+                margin-top:250px;
+                color:red;
+                font-family: Helvetica;
+                font-size: 50px;
+                font-weight: bold;
+                letter-spacing: 2px;
+            }
+
         </style>
 
     </head>
@@ -23,11 +33,13 @@
 	    <div class="container">
             <img id="display">
 
+            <p class="text">SMALL TALK</p>
+
 	    	<script>
 
             window.setInterval (
                 function () {
-                var myArray = ['Eye02.gif', 'Eye02_alt1.gif', 'Eye02_alt2.gif', 'Eye02_alt3.gif', 'Eye02_alt4.gif', 'Eye02_alt5.gif', 'Eye02_alt6.gif'];
+                var myArray = ['Eye02.gif', 'Eye02.gif', 'Eye02_alt1.gif', 'Eye02_alt2.gif'];
 
                 var rand = myArray[Math.floor(Math.random() * myArray.length)];
                 // Math.floor(Math.random(...)) call rounds down, so don't have to do .length - 1
