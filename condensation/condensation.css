@@ -1,0 +1,21 @@
+body {
+	background-color:black;
+}
+
+.container {
+	width:1600px;
+}
+
+img {
+	width:100%;
+	opacity:90%;
+}
+
+.bg {
+	position:fixed;
+	z-index:-1;
+}
+
+.top {
+	z-index:1;
+}
