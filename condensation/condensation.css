@@ -2,8 +2,16 @@ body {
 	background-color:black;
 }
 
+.box {
+	width:3200px;
+	margin-top:-30px;
+}
+
 .container {
-	width:1600px;
+	width:1630px;
+	display:inline-block;
+	margin-left:0px;
+	margin:-20px;
 }
 
 img {
@@ -12,6 +20,7 @@ img {
 }
 
 .bg {
+	width:1600px;
 	position:fixed;
 	z-index:-1;
 }
