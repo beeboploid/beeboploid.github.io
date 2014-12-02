@@ -1,11 +1,40 @@
 body {
 	background-color:black;
 	font-family: 'Roboto', sans-serif;
+	font-weight:300;
+	color:white;
 }
 
 .box {
 	width:3200px;
 	margin-top:-30px;
+}
+
+.text {
+	position:fixed;
+	width:800px;
+	height:600px;
+	left:50%;
+	margin-left:-400px;
+	top:50%;
+	margin-top:-300px;
+	z-index:10;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 130px;
+}
+
+.subtext {
+	font-size: 50px;
+}
+
+.overtext {
+	position:absolute;
+	width:100%;
+	margin:0px;
+	left:0px;
+	top:0px;
+	z-index:12;
 }
 
 .container {
